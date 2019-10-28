@@ -115,6 +115,7 @@ int main()
         {
           send(csock, &chr, sizeof(chr), 0);
         }
+        memset(letter, 0, sizeof(letter));
       }
       else
       {
